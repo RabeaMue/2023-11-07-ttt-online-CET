@@ -120,10 +120,8 @@ site.swc_site }}/conduct/">Code of Conduct</a>.
 <p id="venue">
   {{page.address}}.
   {% if page.latitude and page.longitude %}
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  Online:
+  <a href="https://carpentries.zoom.us/my/carpentriesroom1?pwd=VElzMTlMcXh1bjF6YXl3L1NsTllldz09">Zoom Room</a>.
   {% endif %}
 </p>
 {% elsif online == "true_public" %}
